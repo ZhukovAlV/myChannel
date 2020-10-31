@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 
 import java.time.ZonedDateTime;
 
-public class YandexMusicChannel  implements PublishingChannels {
+public class YandexMusicChannel implements PublishingChannels {
 
     private final static Logger LOGGER = LoggerFactory.getLogger(YandexMusicChannel.class);
 
