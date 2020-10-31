@@ -6,12 +6,10 @@ import com.example.myChannel.daoImpl.data.AudioRecordingStorage;
 import com.example.myChannel.daoImpl.data.VideoStorage;
 import com.example.myChannel.model.Recording;
 import com.example.myChannel.model.TypeTrack;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 
-@Component
+@Service
 public class RecordingDataHub {
 
     DataStorage data;

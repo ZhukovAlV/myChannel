@@ -10,13 +10,11 @@ import com.example.myChannel.daoImpl.publishing.YandexMusicChannel;
 import com.example.myChannel.daoImpl.publishing.YoutubeMusicChannel;
 import com.example.myChannel.model.Recording;
 import com.example.myChannel.model.TypeTrack;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.time.ZonedDateTime;
 
-@Component
+@Service
 public class PromotionService {
 
     com.example.myChannel.dao.PromotionService promotion = new PromotionDaoimpl();
