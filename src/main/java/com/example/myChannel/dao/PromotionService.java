@@ -6,5 +6,4 @@ import java.time.ZonedDateTime;
 
 public interface PromotionService {
     void createCampaign(Recording recording, ZonedDateTime campaignCreateDate);
-
 }
