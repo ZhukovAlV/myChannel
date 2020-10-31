@@ -11,8 +11,6 @@ import java.time.ZonedDateTime;
 @Component
 public class PromotionService {
 
-    private final static Logger LOGGER = LoggerFactory.getLogger(PromotionService.class);
-
     com.example.myChannel.dao.PromotionService promotion = new PromotionDaoimpl();
 
     public void createCampaign(Recording recording, ZonedDateTime campaignCreateDate){
