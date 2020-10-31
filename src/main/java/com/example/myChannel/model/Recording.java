@@ -1,12 +1,8 @@
 package com.example.myChannel.model;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
-import java.beans.JavaBean;
 import java.net.URL;
 import java.util.Objects;
 
-@JavaBean
 public class Recording {
     private String artistName;
     private TypeTrack typeTrack;
@@ -18,7 +14,6 @@ public class Recording {
     private int len;
     private URL urlFile;
 
-    @Autowired
     public Recording(String artistName, TypeTrack typeTrack, String compositionName, String albumName, int year, URL urlCover, String genre, int len, URL urlFile) {
         this.artistName = artistName;
         this.typeTrack = typeTrack;
